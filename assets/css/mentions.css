@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding-top: 5px;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+header img{
+    width: 350px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+header p,
+.presentation p {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.presentation {
+    background-image: url('../img/cover_dark.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+}
+
+#presentation {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+
+nav {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Oxygen';
+    font-weight: bold;
+    color: #fff;
+}
+
+li a:hover {
+    color: #e05c41;
+    transition: 0.3s ease-in-out;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#presentation {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, p {
+    margin: 2% 10%;
+    font-family: 'DM Serif Display';
+}
+
+p {
+    line-height: 30px;
+    font-family: 'Oxygen';
+}
